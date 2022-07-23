@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* list-style: none; */
+  text-decoration: none;
+  outline: none;
+  @apply font-OpenSans;
+}
+
+/* .root,
+#root,
+#docs-root {
+  --DarkBlue: #0055a5;
+  --MainBlue: #4d94ff;
+  --Pink: #ff4d94;
+  --Green: #94ff4d;
+  --White: #fffffc;
+  --Gray: #ebebeb;
+  --DarkGray: #d3d3d3;
+  --Black: #1e1e1e;
+} */
+
+.container {
+  /* @apply grid h-screen grid-cols-1 grid-rows-[repeat(8,_minmax(175px,_471px))]; */
+  @apply grid h-screen grid-cols-1 grid-rows-[428px_293px_319px_201px_175px_471px_275px_197px];
+}
+
+.Title {
+  @apply bg-MainBlue rounded-2xl inline-flex items-center justify-center p-2 h-14;
+}
+
+h1 {
+  @apply text-h1;
+}
+
+h2 {
+  @apply text-h2;
+}
+
+h3 {
+  @apply text-h3;
+}
+
+h4 {
+  @apply text-h4;
+}
+
+p {
+  @apply text-p;
+}
