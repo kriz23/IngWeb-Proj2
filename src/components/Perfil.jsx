@@ -2,7 +2,7 @@ import React from 'react';
 import { Title } from 'components/Title';
 
 const Perfil = () => (
-  <div className='flex flex-col items-center h-[17.25rem]'>
+  <div className='flex flex-col items-center'>
     <Title text='PERFIL' />
     <p className='text-justify text-p font-OpenSans'>
       Estudiante de ingenieria de sistemas apasionado por la tecnología, linux y

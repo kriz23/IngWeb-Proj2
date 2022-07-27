@@ -2,7 +2,7 @@ import React from 'react';
 import { Title } from 'components/Title';
 
 const ExpLaboral = () => (
-  <div className='flex flex-col items-center h-[26.625rem]'>
+  <div className='flex flex-col items-center'>
     <Title text='EXP. LABORAL' />
     <div className='self-start'>
       <h4 className='mb-0'>

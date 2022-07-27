@@ -3,7 +3,7 @@ import { IconText } from 'components/IconText';
 import { Title } from 'components/Title';
 
 const Contacto = () => (
-  <div className='flex flex-col items-center h-[15.5rem]'>
+  <div className='flex flex-col items-center'>
     <Title text='CONTACTO' />
 
     <IconText />

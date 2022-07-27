@@ -20,52 +20,50 @@ const Home = () => (
       <span className='text-gray-200'>And react router</span>
     </div> */}
 
-    <div className='container'>
-      <div className='md:hidden'>
-        <div className='pt-4 px-4 pb-[1.563rem] bg-Black border-b-[5px] border-DarkBlue'>
-          <Description />
-        </div>
-        <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue'>
-          <Contacto />
-        </div>
-        <div className='pt-[1.25rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue'>
-          <Perfil />
-        </div>
-        <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue'>
-          <Estudios />
-        </div>
-        <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue'>
-          <Idiomas />
-        </div>
-        <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue'>
-          <ExpLaboral />
-        </div>
-        <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue'>
-          <CursosAfines />
-        </div>
-        <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue'>
-          <Hobbies />
-        </div>
+    <div className='container2'>
+      <div className='pt-4 px-4 pb-[1.563rem] bg-Black border-b-[5px] border-DarkBlue md:hidden'>
+        <Description />
+      </div>
+      <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue md:hidden'>
+        <Contacto />
+      </div>
+      <div className='pt-[1.25rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue md:hidden'>
+        <Perfil />
+      </div>
+      <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue md:hidden'>
+        <Estudios />
+      </div>
+      <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue md:hidden'>
+        <Idiomas />
+      </div>
+      <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue md:hidden'>
+        <ExpLaboral />
+      </div>
+      <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue md:hidden'>
+        <CursosAfines />
+      </div>
+      <div className='pt-[1.125rem] px-4 pb-[1.563rem] bg-Gray border-b-[5px] border-DarkBlue md:hidden'>
+        <Hobbies />
       </div>
       <div className='hidden md:flex col-span-3 bg-Black border-b-[5px] border-DarkBlue pt-4 px-6 pb-2 xl:hidden'>
         <DescriptionT />
       </div>
-      <div className='hidden md:flex col-end-2 bg-DarkGray border-b-[5px] border-DarkBlue pt-[1.875rem] px-12 xl:hidden'>
+      <div className='hidden md:flex col-end-2 bg-DarkGray border-b-[5px] border-DarkBlue py-[1.875rem] px-12 xl:hidden'>
         <Contacto />
       </div>
-      <div className='hidden md:flex flex-col col-end-3 bg-DarkGray border-b-[5px] border-DarkBlue pt-[1.875rem] px-12 xl:hidden'>
+      <div className='hidden md:flex flex-col col-end-3 bg-DarkGray border-b-[5px] border-DarkBlue py-[1.875rem] px-12 xl:hidden'>
         <Estudios />
         <Idiomas />
       </div>
-      <div className='hidden md:flex col-end-2 bg-DarkGray border-b-[5px] border-DarkBlue pt-[1.875rem] px-8 xl:hidden'>
+      <div className='hidden md:flex col-end-2 bg-DarkGray border-b-[5px] border-DarkBlue py-[1.875rem] px-8 xl:hidden'>
         <ExpLaboral />
       </div>
-      <div className='hidden md:flex flex-col col-end-3 bg-DarkGray border-b-[5px] border-DarkBlue pt-[1.875rem] px-8 xl:hidden'>
+      <div className='hidden md:flex flex-col col-end-3 bg-DarkGray border-b-[5px] border-DarkBlue py-[1.875rem] px-8 xl:hidden'>
         <CursosAfines />
         <Hobbies />
       </div>
       <div className='hidden xl:flex w-screen'>
-        <aside className='w-[28.26%] flex flex-col bg-Black border-r-[5px] border-b-[5px] border-DarkBlue items-center justify-start pt-4 px-8 pb-2'>
+        <aside className='w-[28.26%] flex flex-col bg-Black border-r-[5px] border-b-[5px] border-DarkBlue items-center justify-start pt-4 px-8 pb-4'>
           <Aside />
         </aside>
         <div className='w-[71.74%] flex flex-col '>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Title } from 'components/Title';
 
 const Idiomas = () => (
-  <div className='flex flex-col items-center h-[8.125rem] md:mt-10 xl:mt-0 w-full'>
+  <div className='flex flex-col items-center md:mt-10 xl:mt-0 w-full'>
     <Title text='IDIOMAS' />
     <div className='self-start pl-7 xl:text-White'>
       <ul className='list-disc'>

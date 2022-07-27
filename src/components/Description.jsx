@@ -9,7 +9,7 @@ import {
 import { DescriptionHeader } from 'components/DescriptionHeader';
 
 const Description = () => (
-  <div className='flex flex-col items-center justify-center h-[24.375rem] select-none gap-4'>
+  <div className='flex flex-col items-center justify-center select-none gap-4'>
     <b>
       <h3 className='text-White text-center'>Desarrollador Web</h3>
     </b>
