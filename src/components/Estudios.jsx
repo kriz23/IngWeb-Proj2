@@ -2,9 +2,9 @@ import React from 'react';
 import { Title } from 'components/Title';
 
 const Estudios = () => (
-  <div className='flex flex-col items-center h-[9.813rem]'>
+  <div className='flex flex-col items-center h-[9.813rem] w-full select-none'>
     <Title text='ESTUDIOS' />
-    <div className='self-start'>
+    <div className='self-start xl:text-White'>
       <h4 className='mb-[0.438rem]'>
         <b>Ingeniería de Sistemas</b>
       </h4>

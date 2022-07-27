@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa';
 
 const IconText = () => (
-  <div className='flex flex-wrap h-full'>
+  <div className='flex flex-wrap h-full xl:text-White'>
     <div className='flex flex-wrap gap-2 items-center mb-3 w-full'>
       <FaEnvelope className='text-3xl' />
       <a href='mailto:cristhian.gonzalez@udea.edu.co'>

@@ -14,6 +14,7 @@
   text-decoration: none;
   outline: none;
   @apply font-OpenSans;
+  /* user-select: none; */
 }
 
 /* .root,
@@ -31,11 +32,15 @@
 
 .container {
   /* @apply grid h-screen grid-cols-1 grid-rows-[repeat(8,_minmax(175px,_471px))]; */
-  @apply grid h-screen max-w-screen-md grid-cols-1 grid-rows-[428px_293px_20rem_201px_175px_471px_275px_197px] md:grid-cols-2 md:grid-rows-[17.375rem_25rem_32.375rem] md:max-w-screen-xl;
+  @apply grid h-screen max-w-screen-md grid-cols-1 grid-rows-[428px_293px_20rem_201px_175px_471px_275px_197px] md:grid-cols-2 md:grid-rows-[17.375rem_25rem_32.375rem] md:max-w-screen-xl xl:grid-rows-none xl:grid-cols-none;
 }
 
 .section {
   @apply md:hidden;
+}
+
+.sectionT {
+  @apply xl:hidden;
 }
 
 .Title {
