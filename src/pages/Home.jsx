@@ -62,11 +62,11 @@ const Home = () => (
         <CursosAfines />
         <Hobbies />
       </div>
-      <div className='hidden xl:flex w-screen'>
-        <aside className='w-[28.26%] flex flex-col bg-Black border-r-[5px] border-b-[5px] border-DarkBlue items-center justify-start pt-4 px-8 pb-4'>
+      <div className='hidden xl:flex w-full'>
+        <aside className='w-[28%] flex flex-col bg-Black border-r-[5px] border-b-[5px] border-DarkBlue items-center justify-start pt-4 px-8 pb-4'>
           <Aside />
         </aside>
-        <div className='w-[71.74%] flex flex-col '>
+        <div className='w-[72%] flex flex-col '>
           <div className='pt-4 px-12 pb-2 bg-DarkGray h-[28.35%] border-b-[5px] border-DarkBlue'>
             <DescriptionHeader
               title_color='Black'
