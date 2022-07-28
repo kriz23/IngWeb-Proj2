@@ -87,7 +87,7 @@ const Home = () => (
             <div className='w-full h-[82px] self-center flex items-center justify-center mb-8 bg-gradient-to-r from-MainBlue to-DarkBlue rounded-3xl'>
               <b>
                 <h3 className='text-White'>
-                  Made With ❤ | Ingenieía Web | 2022
+                  Made With ❤ | Ingeniería Web | 2022
                 </h3>
               </b>
             </div>

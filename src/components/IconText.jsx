@@ -30,7 +30,7 @@ const IconText = () => (
         target='_blank'
         rel='noreferrer'
       >
-        <p>Medellin, Colombia</p>
+        <p>Medellín, Colombia</p>
       </a>
     </div>
     <div className='flex flex-wrap gap-2 items-center w-full'>
