@@ -16,22 +16,16 @@
   @apply font-OpenSans;
 }
 
-/* .root,
-#root,
-#docs-root {
-  --DarkBlue: #0055a5;
-  --MainBlue: #4d94ff;
-  --Pink: #ff4d94;
-  --Green: #94ff4d;
-  --White: #fffffc;
-  --Gray: #ebebeb;
-  --DarkGray: #d3d3d3;
-  --Black: #1e1e1e;
-} */
+.container2 {
+  @apply grid h-screen grid-cols-1 md:grid-cols-2 xl:grid-cols-none;
+}
 
-.container {
-  /* @apply grid h-screen grid-cols-1 grid-rows-[repeat(8,_minmax(175px,_471px))]; */
-  @apply grid h-screen grid-cols-1 grid-rows-[428px_293px_319px_201px_175px_471px_275px_197px];
+.section {
+  @apply md:hidden;
+}
+
+.sectionT {
+  @apply xl:hidden;
 }
 
 .Title {

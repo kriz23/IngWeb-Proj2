@@ -2,7 +2,7 @@ import React from 'react';
 import { Title } from 'components/Title';
 
 const CursosAfines = () => (
-  <div className='flex flex-col items-center h-[14.375rem]'>
+  <div className='select-none flex flex-col items-center'>
     <Title text='CURSOS AFINES' />
     <div className='self-start pl-7'>
       <ul className='list-disc'>
