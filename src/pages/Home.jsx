@@ -1,4 +1,3 @@
-// import { Title } from 'components/Title';
 import { Description, DescriptionT } from 'components/Description';
 import { Contacto } from 'components/Contacto';
 import { Perfil } from 'components/Perfil';
@@ -95,13 +94,6 @@ const Home = () => (
         </div>
       </div>
     </div>
-
-    {/* <div className='flex flex-col items-center justify-between h-screen'>
-      <Title text='CONTACTO' />
-      <Title text='ESTUDIOS' />
-      <Title text='IDIOMAS' />
-      <Title text='EXP. LABORAL' />
-    </div> */}
   </main>
 );
 
